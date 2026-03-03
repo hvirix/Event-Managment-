@@ -1,4 +1,4 @@
-<img width="944" height="840" alt="image" src="https://github.com/user-attachments/assets/f51e2f26-1750-4a07-83ba-8472e67ecec4" /># EventM
+# EventM
 
 EventM is a web application for planning events and managing tasks. It allows you to create events, track task progress, and invite co-organizers to collaborate.
 
