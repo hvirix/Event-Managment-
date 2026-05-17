@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+events.db
+.env
+.DS_Store
+dist
+build
+lab6_report.md
+lab6_report_template.md
+docker_guide.md

@@ -209,4 +209,5 @@ app.put('/api/tasks/:id/toggle', authenticateToken, (req, res) => {
         [req.body.is_completed ? 1 : 0, req.params.id], (err) => res.json({ success: true }));
 });
 
-app.listen(3000, () => console.log('Сервер: http://localhost:3000'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log(`Сервер: http://localhost:${PORT}`));

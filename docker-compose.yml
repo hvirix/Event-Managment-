@@ -1,0 +1,15 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: event-management-app
+    ports:
+      - "8080:8080"
+    volumes:
+      # Persists the SQLite database so data remains when container is deleted
+      - ./events.db:/app/events.db
+    environment:
+      - NODE_ENV=production
+      - APP_ENV=production
+    restart: always
